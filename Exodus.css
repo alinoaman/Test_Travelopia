@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("https://res.cloudinary.com/enchanting/q_70,f_auto,w_850,h_558,c_fill,g_face/travelopia-web/2021/08/ibrahim-rifath-Y6tBl0pTe-g-unsplash-e1640030278345.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh; 
+  }
+  
+  .centered {
+    transform: translate(-50%, -50%);
+  }
+  .column{
+    border-radius: 1px;
+    background-color: white;
+    height: 20vh;
+  }
+  .img-txt{
+    color: white;
+    padding-top: 35vh;
+    font-style: oblique;
+    font-family:Consolas;
+    text-align: center;
+  }
+
+  .text1{
+    color:white;
+    font-style: oblique;
+    font-family:Consolas;
+    text-align: center;
+  }
+
+  /* .changes{
+    background-color: lightgrey;
+      padding: 20px; 
+      text-align: center;
+  } */
+
+  .search {
+    text-align: right;
+    color: rgb(127, 255, 249)93, 255;
+  }
+  
+  .title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-left: 5px;
+  }
+  
+  .nav dropdown{
+    align-items: end;
+  }
+  
+  #more {
+    display: none;
+  }
+  
+  #myBtn{
+    border: none;
+    text-align: center;
+    margin-left: 35%;
+    color: rgb(127, 193, 255);
+    font-size: medium;
+    background-color: white;
+  }
+  
+  .top-nav {
+    padding-top: 1.5%;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    height: 8vh;
+  }
+  
+  .heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15;
+    padding-left: 7%;
+  
+  }
+  
+  .para {
+    padding-left: 7%;
+    padding-right: 35%;
+    font-size: 18px;
+    font-family:"Miller Display Bold", serif;
+    color: rgb(144, 138, 138);
+  }
+  
+  .dropdown-menu{
+    align-items: right;
+    text-align: right;
+  }
+  
+  .nav-item {
+    color: light rgb(221, 215, 215);
+    font-size: medium;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(143, 74, 143);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: larger;
+  }
+  
+  .off{
+    background-color: orange;
+    height: 5vh;
+  }
+  
+  .contact {
+    float: right;
+  }
+  
+  .card{
+    padding-left: 0.5%;
+    margin-left: 8%;
+    margin-right: 60%;
+  }
+  
+  .card-link{
+    color:black;
+  }
+  
+  .order{
+    color: bisque;
+  }

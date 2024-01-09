@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Exodus.css">
+
+    <link rel="stylesheet" crossorigin="anonymous"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>EXODUS</title>
+</head> 
+    <body>
+  
+
+  <nav class="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="title"><b>EXODUS &nbsp;</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Destinations.html"><b>Destinations</b> </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Activities</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Ways to Travel</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Offers</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Late Getaways</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>Sustainable Travel</b></a>
+          </li>
+
+          <hr>
+        </ul>
+  
+
+        <form class="form-inline my-2 my-lg-0">
+          <div class="contact">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> &nbsp;
+            <button type="button" class="btn btn-info btn-lg" onclick="scrollToContact()">CONTACT</button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+            </svg>
+          </div>
+        </form>      
+      </div>
+    </nav>
+    <div class="changes"></div>
+<h1 class= "img-txt"><b>Armenia Tours</b></h1>
+<p class="text1"><b>Where Asia and Europe meets in a symphony of<br> mountains, history and tradition</b></p>
+
+</div>
+</nav>
+<body>
+  <br> <br>
+
+
+  <main>
+    
+    <section id="home">
+      <h1 class="heading"><b>Armenia Tours</b></h1>
+      <p class="para">Armenia is a mountainous nation in West Asia, a former Soviet Republic, and was one of the first Christian nations, embracing Christianity in the fourth century.
+
+        <br>
+        There are many pagan sites to visit as well as UNESCO World Heritage-listed churches, which are - almost without exception-built in stunning locations. 
+        Surrounded by forests, perched on the top of dramatic gorges or silhouetted before snow-capped mountains. 
+        <span id="dots">...</span><span id="more"><br>
+
+        Stretching from the countries of the former USSR to the Atlantic islands of Iceland and Greenland,
+        At Exodus, we love adventure travel and always have. There’s something about the feeling of visiting a new country,
+         culture or environment – whether that’s a mountain range, desert or jungle – that just can’t be beaten.|
+           
+           So, if you’re looking for adventure holidays, or are in need of some travel inspiration for your next activity holidays,
+            you’ve come to the right place.<br>
+
+        Start building your dream trip, with our expert local guides, and choose by destination or type of
+        activity. Whether you want to travel to Italy, Spain, Croatia, Portugal or Greece, each country or region has
+        its own unique offering, and is sure to be an incredible adventure.</span></p>
+
+        <button onclick="myFunction()" id="myBtn"><b>Show more &#8595;</b></button>
+    
+    </section>
+  
+    <script>
+
+        function scrollToContact() {
+            var contactSection = document.getElementById("contactSection");
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }  
+
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Show more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Show less" ; 
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+
+<br>
+<br>
+<br>
+
+<div id="contactSection" class="card">
+  <div class="card-body">
+    <h5 class="card-title">Call for general departures:</h5>
+    <p class="card-text"></p>
+    <a href="#" class="card-link"><b>06777491889</b></a>
+  </div>
+</div>
+<br>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-link"><b><a href="EmailEnquiry.html">Email Enquiry &rarr;</a></b></h5>
+    <p class="card-text"></p>
+    <a href="#" class="card-link"><b></b></a>
+  </div>
+</div>
+
+</main>
+
+  
+
+</body>
+
+</html>
